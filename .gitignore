@@ -1,0 +1,22 @@
+# Composer
+/vendor/
+
+# Environment
+.env
+
+# CodeIgniter writable folders
+/writable/cache/*
+/writable/logs/*
+/writable/session/*
+/writable/uploads/*
+!/writable/*/index.html
+
+# PHPUnit
+/build/
+.phpunit.result.cache
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
